@@ -18,6 +18,6 @@ A simple touch-triggered buzzer circuit using the NE555 timer IC.
 
 ## Schematic
 
-![Schematic](555timerschematic.png)
+![Schematic](schematic.png)
 
 
