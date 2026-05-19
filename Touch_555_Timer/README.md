@@ -16,4 +16,8 @@ A simple touch-triggered buzzer circuit using the NE555 timer IC.
 - Touch input concept
 - PCB workflow basics
 
+## Schematic
+
+![Schematic](555timerschematic.png)
+
 
