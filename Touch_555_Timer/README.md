@@ -21,3 +21,14 @@ A simple touch-triggered buzzer circuit using the NE555 timer IC.
 ![Schematic](schematic.png)
 
 
+
+## Footprint Assignment
+
+Assigned appropriate PCB footprints to all schematic components before PCB generation.
+
+
+### Purpose
+Footprint assignment links schematic symbols to their real physical PCB dimensions, enabling accurate PCB layout generation.
+
+![Footprint Assignment](footprint.png)
+
