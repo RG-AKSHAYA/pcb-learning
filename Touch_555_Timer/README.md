@@ -42,3 +42,15 @@ Configured separate net classes for:
 This improves PCB organization and routing clarity.
 
 ![Net Class Setup](netclass.png)
+
+## PCB Layout
+
+Designed and routed the PCB for the touch-triggered 555 timer circuit.
+
+### Features
+- Compact PCB layout
+- Through-hole components
+- Organized component placement
+- Clean routing design
+
+![PCB Layout](pcb_wiring.png)
