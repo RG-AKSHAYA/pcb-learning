@@ -32,3 +32,13 @@ Footprint assignment links schematic symbols to their real physical PCB dimensio
 
 ![Footprint Assignment](footprint.png)
 
+## Net Class Configuration
+
+Configured separate net classes for:
+- Power traces
+- Signal traces
+- Output routing
+
+This improves PCB organization and routing clarity.
+
+![Net Class Setup](netclass.png)
