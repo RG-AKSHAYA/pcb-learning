@@ -1,7 +1,9 @@
-# Day 1 - Touch Sensor using 555 Timer
+Queaky STEM toy circuit
 
 ## Description
-A simple touch-triggered buzzer circuit using the NE555 timer IC.
+
+The Squeaky STEM Toy Circuit is a simple interactive electronic toy built using the NE555 timer IC. The circuit generates a buzzer sound when the touch input is activated, demonstrating the fundamentals of timer circuits, touch sensing, and basic PCB design.
+
 
 ## Components Used
 - NE555 Timer IC
