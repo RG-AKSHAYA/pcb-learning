@@ -65,4 +65,12 @@ Generated a 3D visualization of the PCB to verify:
 ![3D PCB View](pcb.png)
 
 
+## Skills Learned
+- Schematic creation
+- Footprint assignment
+- Net class configuration
+- PCB routing
+- PCB visualization using KiCad
+- Basic PCB design workflow
+
 
