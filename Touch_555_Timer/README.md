@@ -54,3 +54,15 @@ Designed and routed the PCB for the touch-triggered 555 timer circuit.
 - Clean routing design
 
 ![PCB Layout](pcb_wiring.png)
+
+## 3D PCB Preview
+
+Generated a 3D visualization of the PCB to verify:
+- Component placement
+- PCB appearance
+- Connector orientation
+
+![3D PCB View](pcb.png)
+
+
+
