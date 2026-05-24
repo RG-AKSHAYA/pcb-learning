@@ -1,78 +1,62 @@
-Queaky STEM toy circuit
+# Touch-Activated 555 Timer — Squeaky STEM Toy
 
-## Description
+An NE555-based monostable circuit that drives a piezo buzzer when a touch
+input is triggered. Fully designed in KiCad from schematic to PCB layout.
 
-The Squeaky STEM Toy Circuit is a simple interactive electronic toy built using the NE555 timer IC. The circuit generates a buzzer sound when the touch input is activated, demonstrating the fundamentals of timer circuits, touch sensing, and basic PCB design.
+---
 
+## Circuit Details
 
-## Components Used
-- NE555 Timer IC
-- Resistors
-- Capacitors
-- Buzzer
-- Battery
+- **IC:** NE555 Timer (monostable configuration)
+- **Trigger:** Touch-sensitive input pad
+- **Output:** Piezo buzzer activation
+- **Power Supply:** Battery (portable, low-voltage)
+- **Construction:** Through-hole components
 
-## What I Learned
-- Schematic design
-- 555 timer basics
-- Touch input concept
-- PCB workflow basics
+---
 
-## Schematic
+## Design Process
+
+### 1. Schematic Capture
+Full circuit schematic designed in KiCad EESchema.
 
 ![Schematic](schematic.png)
 
-
-
-## Footprint Assignment
-
-Assigned appropriate PCB footprints to all schematic components before PCB generation.
-
-
-### Purpose
-Footprint assignment links schematic symbols to their real physical PCB dimensions, enabling accurate PCB layout generation.
+### 2. Footprint Assignment
+Through-hole footprints assigned to all components, linking schematic
+symbols to physical PCB dimensions for accurate layout generation.
 
 ![Footprint Assignment](footprint.png)
 
-## Net Class Configuration
-
-Configured separate net classes for:
-- Power traces
-- Signal traces
-- Output routing
-
-This improves PCB organization and routing clarity.
+### 3. Net Class Configuration
+Separate net classes configured for power, signal, and output traces
+to ensure clean routing and organized PCB structure.
 
 ![Net Class Setup](netclass.png)
 
-## PCB Layout
-
-Designed and routed the PCB for the touch-triggered 555 timer circuit.
-
-### Features
-- Compact PCB layout
-- Through-hole components
-- Organized component placement
-- Clean routing design
+### 4. PCB Layout
+Compact routed PCB with organized component placement and clean trace routing.
 
 ![PCB Layout](pcb_wiring.png)
 
-## 3D PCB Preview
-
-Generated a 3D visualization of the PCB to verify:
-- Component placement
-- PCB appearance
-- Connector orientation
+### 5. 3D Verification
+3D preview generated to verify component placement, orientation, and
+overall board appearance before fabrication.
 
 ![3D PCB View](pcb.png)
 
+---
 
-## Skills Learned
-- Schematic creation
-- Footprint assignment
-- Net class configuration
-- PCB routing
-- PCB visualization using KiCad
-- Basic PCB design workflow
+## Tools
+- KiCad 8 (EESchema, PCB Editor, 3D Viewer)
 
+---
 
+## Files in This Folder
+| File | Description |
+|---|---|
+| `schematic.png` | Circuit schematic |
+| `footprint.png` | Footprint assignments |
+| `netclass.png` | Net class configuration |
+| `pcb_wiring.png` | Routed PCB layout |
+| `pcb.png` | 3D PCB preview |
