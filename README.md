@@ -38,6 +38,3 @@ Designed as a complete PCB-ready project: from schematic capture to 3D-verified 
 
 ---
 
-## More Projects Coming
-- [ ] Sensor interface board
-- [ ] Power regulation circuit
